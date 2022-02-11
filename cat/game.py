@@ -24,7 +24,7 @@ class Cat(Actor):
         super(Cat, self).__init__("cat")
 
     def update(self):
-        self.x += 1
+        self.x += 3
 
 # init the game
 def init():
